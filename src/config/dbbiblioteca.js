@@ -3,13 +3,15 @@ import mysql from 'mysql2/promise';
 
 const pool = mysql.createPool({
   host: 'localhost',
-  port: 3306, // puerto por defecto de MySQL
-  user: 'root', // reemplazá si usás otro usuario
-  password: '', // poné tu contraseña si la tenés
+  port: 3306, 
+  user: 'root', 
+  password: '', 
   database: 'biblioteca',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
 });
+
+// Verificar la conexión
 
 export default pool;
