@@ -8,8 +8,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "RESTFull_API",
   "dependencies": {
+    "expres": "^0.0.5",
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliangstr89/RESTFull_API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juliangstr89/RESTFull_API/issues"
+  },
+  "homepage": "https://github.com/juliangstr89/RESTFull_API#readme"
 }
